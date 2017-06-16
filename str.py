@@ -32,3 +32,8 @@ print(m2)
 
 m3 = '{aa} AND {bb}'.format(bb='なんだって', aa=1)
 print(m3)
+
+
+name = 'Yuji'
+m4 = 'あいうえお %s' % name
+print(m4)
