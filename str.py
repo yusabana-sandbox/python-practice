@@ -37,3 +37,11 @@ print(m3)
 name = 'Yuji'
 m4 = 'あいうえお %s' % name
 print(m4)
+
+print('=' * 20)
+aa = ['1', '2', 'bb']
+print(','.join(aa))
+# リストやタプルを文字列展開する場合
+# http://qiita.com/tomotaka_ito/items/594ee1396cf982ba9887
+print('divmod: %s' % (divmod(5, 2),))
+
