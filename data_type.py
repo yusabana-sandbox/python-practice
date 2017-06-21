@@ -12,15 +12,16 @@ def main():
 
     print('-' * 30)
 
+    # タプルは要素の追加や削除ができない
     print('## TUPLE ##')
     tuple = ('AA', 'BB', 'CC')
     print(tuple)
-    print('cc' in list)
+    print('CC' in tuple)
 
     print('-' * 30)
 
-    print('## DICT ##')
-    dict = { 'spam': 'aaaaa', 'ham': 500}
+    print('## DICTIONARY ##')
+    dict = { 'spam': 'aaaaa', 'ham': 500 }
     print(dict)
     print(len(dict))
     print('ham' in dict)
@@ -28,7 +29,7 @@ def main():
     print('-' * 30)
 
     print('## SET ##')
-    set = {'aa', 'bb', 'cc', 'aa'}
+    set = { 'aa', 'bb', 'cc', 'aa' }
     print(set)
     print('aa' in set)
 
