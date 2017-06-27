@@ -21,8 +21,7 @@ def adds(*args):
 # キーワード引数の可変長引数
 def keywords(**args):
     result = ''
-    for k in args:
-        # print(k)
+    for k in args:  # args.items() で key,valueの両方、 args.keys() で keyのみ、args.values() で valueのみ
         result += '{}: {}\n'.format(k, args[k])
     return result
 
