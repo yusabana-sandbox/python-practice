@@ -1,0 +1,11 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[packages]
+
+requests = "==2.12.5"
+beautifulsoup4 = "==4.6.0"
+
+
+[dev-packages]
