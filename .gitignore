@@ -1,1 +1,2 @@
 .direnv/
+.mypy_cache/
